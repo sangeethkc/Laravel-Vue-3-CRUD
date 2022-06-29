@@ -15,7 +15,7 @@ const routes = [
         component: CompaniesCreate
     },
     {
-        path: '/companies/:id/create',
+        path: '/companies/:id/edit',
         name: 'companies.edit',
         component: CompaniesEdit,
         props: true
