@@ -1,8 +1,8 @@
 require('./bootstrap');
 
-import Alpine from 'alpinejs';
+require('alpinejs');
 
-import { createApp } from 'vue';
+import { createApp } from "vue";
 import router from './router'
 import CompaniesIndex from './components/companies/CompaniesIndex'
 
